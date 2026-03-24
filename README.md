@@ -1,21 +1,11 @@
-<p align="center">
-  <!-- Replace with your actual hero image/screenshot -->
-  <!-- <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="docs/images/hero-dark.png">
-    <source media="(prefers-color-scheme: light)" srcset="docs/images/hero-light.png">
-    <img alt="Whendows" src="docs/images/hero-light.png" width="800">
-  </picture> -->
-</p>
-
-<h1 align="center">Whendows</h1>
+<h1 align="center">Jericode</h1>
 
 <p align="center">
   A native Windows desktop client for <a href="https://github.com/anthropics/claude-code">Claude Code</a> and <a href="https://github.com/openai/codex">Codex CLI</a>.
 </p>
 
 <p align="center">
-  <a href="https://github.com/GSonofNun/Whendows/releases/latest"><img alt="Latest Release" src="https://img.shields.io/github/v/release/GSonofNun/Whendows?style=flat-square"></a>
-  <a href="https://github.com/GSonofNun/Whendows/releases"><img alt="Downloads" src="https://img.shields.io/github/downloads/GSonofNun/Whendows/total?style=flat-square"></a>
+  <a href="https://apps.microsoft.com/detail/9p3d8pzh0vnz"><img alt="Microsoft Store" src="https://img.shields.io/badge/Microsoft%20Store-Download-blue?style=flat-square&logo=microsoft"></a>
   <img alt="Platform" src="https://img.shields.io/badge/platform-Windows%2010%2B-blue?style=flat-square">
 </p>
 
@@ -23,18 +13,22 @@
 
 ## Features
 
-- Native WinUI 3 interface with Fluent Design
-- Real-time streaming of AI responses
-- Support for both **Claude** (Anthropic) and **Codex** (OpenAI) as providers
-- Session management — create, resume, and fork conversations
-- Interactive permission prompts for file and command operations
-- Inline file diff viewer
-- Multi-project workspace support
-- Per-session provider and model selection
+- **Real-time streaming** — Watch AI responses appear token-by-token with live token counting
+- **Visual file diffs** — Side-by-side code diffs with syntax highlighting
+- **Multi-provider** — Switch between Claude and Codex per session with independent configuration
+- **Session management** — Create, resume, and fork conversations with full persistence
+- **Permission controls** — Approve or deny tool permissions through a visual dialog with risk indicators
+- **Token and cost tracking** — Monitor usage per turn and per session with budget limits
+- **File mentions** — Reference project files with `@file` autocomplete and gitignore-aware fuzzy search
+- **Sub-agent monitoring** — Track parallel agent activity in real time
+- **Plan mode** — Review AI strategies before execution
+- **Dark and light themes** — Native WinUI 3 with Windows accent color integration
+- **Project workspaces** — Organize sessions by project with smart temporal grouping
+- **Privacy first** — All data stays on your machine. No telemetry, no analytics, no tracking.
 
 ## Download
 
-Get the latest release from the **[Releases page](https://github.com/GSonofNun/Whendows/releases/latest)**.
+<a href="https://apps.microsoft.com/detail/9p3d8pzh0vnz"><img alt="Download from Microsoft Store" src="https://get.microsoft.com/images/en-us%20dark.svg" width="200"></a>
 
 ### System Requirements
 
@@ -45,7 +39,7 @@ Get the latest release from the **[Releases page](https://github.com/GSonofNun/W
 
 ### 1. Install a CLI Provider
 
-Whendows requires at least one of the following CLI tools installed on your system.
+Jericode requires at least one of the following CLI tools installed on your system.
 
 #### Claude Code (Anthropic)
 
@@ -80,24 +74,26 @@ Codex is OpenAI's lightweight coding agent that runs in your terminal.
 3. Alternatively, set the `OPENAI_API_KEY` environment variable with your API key
 4. Requires a ChatGPT Plus, Pro, Team, Edu, or Enterprise plan (or an OpenAI API key)
 
-### 2. Install Whendows
+### 2. Install Jericode
 
-1. Download the latest release from the [Releases page](https://github.com/GSonofNun/Whendows/releases/latest)
-2. Extract the archive
-3. Run the application
+Download Jericode from the [Microsoft Store](https://apps.microsoft.com/detail/9p3d8pzh0vnz).
 
 ### 3. Start a Session
 
-- Whendows auto-detects installed CLI providers on startup
+- Jericode auto-detects installed CLI providers on startup
 - Right-click a project in the sidebar to create a new **Claude** or **Codex** session
 - Each session is tied to a single provider and can be resumed or forked at any time
+
+## Privacy
+
+Jericode does not collect, transmit, or share any personal data. All conversations, session data, and settings are stored locally on your device. See [PRIVACY.md](PRIVACY.md) for details.
 
 ## Reporting Issues
 
 Found a bug or have a feature idea?
 
-- [Report a bug](https://github.com/GSonofNun/Whendows/issues/new?template=bug_report.yml)
-- [Request a feature](https://github.com/GSonofNun/Whendows/issues/new?template=feature_request.yml)
+- [Report a bug](https://github.com/GSonofNun/Jericode-ADE/issues/new?template=bug_report.yml)
+- [Request a feature](https://github.com/GSonofNun/Jericode-ADE/issues/new?template=feature_request.yml)
 
 ## Security
 
