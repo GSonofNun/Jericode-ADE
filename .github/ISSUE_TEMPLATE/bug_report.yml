@@ -1,5 +1,5 @@
 name: Bug Report
-description: Report a bug or unexpected behavior in Whendows
+description: Report a bug or unexpected behavior in Jericode
 labels: ["bug"]
 body:
   - type: textarea
@@ -16,7 +16,7 @@ body:
       label: Steps to Reproduce
       description: How can we reproduce this behavior?
       placeholder: |
-        1. Open Whendows
+        1. Open Jericode
         2. ...
         3. ...
     validations:
@@ -41,9 +41,9 @@ body:
   - type: input
     id: app-version
     attributes:
-      label: Whendows Version
-      description: Which version of Whendows are you using?
-      placeholder: e.g., 1.0.0
+      label: Jericode Version
+      description: Which version of Jericode are you using?
+      placeholder: e.g., 0.1.7.0
     validations:
       required: true
 
