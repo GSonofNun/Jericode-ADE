@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <a href="https://apps.microsoft.com/detail/9N3W6PQ7X087"><img alt="Microsoft Store" src="https://img.shields.io/badge/Microsoft%20Store-Download-blue?style=flat-square&logo=microsoft"></a>
+  <a href="https://apps.microsoft.com/detail/9N3W6PQ7X087" target="_blank" rel="noopener noreferrer"><img alt="Microsoft Store" src="https://img.shields.io/badge/Microsoft%20Store-Download-blue?style=flat-square&logo=microsoft"></a>
   <img alt="Platform" src="https://img.shields.io/badge/platform-Windows%2010%2B-blue?style=flat-square">
   <a href="https://github.com/GSonofNun/Jericode-ADE/releases"><img alt="Beta" src="https://img.shields.io/badge/release-Beta-orange?style=flat-square"></a>
 </p>
@@ -31,9 +31,7 @@
 
 ## Download
 
-<a href="https://apps.microsoft.com/detail/9N3W6PQ7X087"><img alt="Download from Microsoft Store" src="https://get.microsoft.com/images/en-us%20dark.svg" width="200"></a>
-
-Or open the Store directly: [`ms-windows-store://pdp/?productid=9N3W6PQ7X087`](ms-windows-store://pdp/?productid=9N3W6PQ7X087)
+<a href="https://apps.microsoft.com/detail/9N3W6PQ7X087" target="_blank" rel="noopener noreferrer"><img alt="Download from Microsoft Store" src="https://get.microsoft.com/images/en-us%20dark.svg" width="200"></a>
 
 **Prefer to sideload?** Grab the latest x64 or ARM64 MSIX from [GitHub Releases](https://github.com/GSonofNun/Jericode-ADE/releases). See the release notes for install steps — you'll need to trust the included developer certificate before the first install.
 
@@ -88,7 +86,7 @@ Download Jericode from the [Microsoft Store](https://apps.microsoft.com/detail/9
 ### 3. Start a Session
 
 - Jericode auto-detects installed CLI providers on startup
-- Right-click a project in the sidebar to create a new **Claude** or **Codex** session
+- Click new session button in the top of the left sidebar to start a new session
 - Each session is tied to a single provider and can be resumed or forked at any time
 
 ## Privacy
