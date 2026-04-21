@@ -5,9 +5,12 @@
 </p>
 
 <p align="center">
-  <a href="https://apps.microsoft.com/detail/9p3d8pzh0vnz"><img alt="Microsoft Store" src="https://img.shields.io/badge/Microsoft%20Store-Download-blue?style=flat-square&logo=microsoft"></a>
+  <a href="https://apps.microsoft.com/detail/9N3W6PQ7X087"><img alt="Microsoft Store" src="https://img.shields.io/badge/Microsoft%20Store-Download-blue?style=flat-square&logo=microsoft"></a>
   <img alt="Platform" src="https://img.shields.io/badge/platform-Windows%2010%2B-blue?style=flat-square">
+  <a href="https://github.com/GSonofNun/Jericode-ADE/releases"><img alt="Beta" src="https://img.shields.io/badge/release-Beta-orange?style=flat-square"></a>
 </p>
+
+> **Jericode is currently in Beta.** Expect rough edges, and please [file issues](https://github.com/GSonofNun/Jericode-ADE/issues) when you hit them.
 
 ---
 
@@ -28,7 +31,11 @@
 
 ## Download
 
-<a href="https://apps.microsoft.com/detail/9p3d8pzh0vnz"><img alt="Download from Microsoft Store" src="https://get.microsoft.com/images/en-us%20dark.svg" width="200"></a>
+<a href="https://apps.microsoft.com/detail/9N3W6PQ7X087"><img alt="Download from Microsoft Store" src="https://get.microsoft.com/images/en-us%20dark.svg" width="200"></a>
+
+Or open the Store directly: [`ms-windows-store://pdp/?productid=9N3W6PQ7X087`](ms-windows-store://pdp/?productid=9N3W6PQ7X087)
+
+**Prefer to sideload?** Grab the latest x64 or ARM64 MSIX from [GitHub Releases](https://github.com/GSonofNun/Jericode-ADE/releases). See the release notes for install steps — you'll need to trust the included developer certificate before the first install.
 
 ### System Requirements
 
@@ -76,7 +83,7 @@ Codex is OpenAI's lightweight coding agent that runs in your terminal.
 
 ### 2. Install Jericode
 
-Download Jericode from the [Microsoft Store](https://apps.microsoft.com/detail/9p3d8pzh0vnz).
+Download Jericode from the [Microsoft Store](https://apps.microsoft.com/detail/9N3W6PQ7X087), or sideload from [GitHub Releases](https://github.com/GSonofNun/Jericode-ADE/releases).
 
 ### 3. Start a Session
 
